@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="blankUsername" value=" "></parameter>
+	<parameter name="blankPassword" value=" "></parameter>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="techCircle_OrangeHRM.testbase.testNG_Annotations" />
+			<class name="techCircle_OrangeHRM.tests.SampleTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
